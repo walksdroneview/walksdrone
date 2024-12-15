@@ -1,0 +1,755 @@
+
+
+
+
+* {
+  height: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/fundo2.jpg);
+  background-size: cover;
+  
+}
+header{
+  background-color: #000000de;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.logo{
+
+  width: 158px;
+  height: 120px;
+  background-size: cover;
+  
+}
+/*Estilização Menu */
+
+.container-menu {
+background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  height: 120px;
+  margin-top: 0px;
+  
+}
+
+nav {
+  position: relative;
+  width: 524px;
+  height: 50px;
+  background: #2e2f2ec5;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+}
+
+nav span {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 523px;
+  height: 100%;
+  background: #e1e4e6;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+nav a:nth-child(1):hover ~ span {
+  left: 67px;
+  width: 60px;
+}
+
+nav a:nth-child(2):hover ~ span {
+  left: 164px;
+  width: 67px;
+}
+
+nav a:nth-child(3):hover ~ span {
+  left: 269px;
+  width: 79px;
+}
+
+nav a:nth-child(4):hover ~ span {
+  left: 382px;
+  width: 75px;
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+/*Estilização Titulo */
+.container-home {
+  margin-top: 60px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color: #ffffff;
+  
+}
+
+.container-home h1{
+  font-size: 60px;
+  
+
+}
+
+/*Estilização SubTitulo */
+.conteudo-subtitulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffffd2;
+  background-color:  #615e5e26;
+}
+.container-servicos-titulo{
+  padding: 20px;
+  height: 20px;
+  font-size: 15px;
+  background-color: #0c1f3a69;
+}
+/*Estilização slider*/
+
+.container-servicos-titulo h2{
+ margin-top: -15px;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+ 
+}
+.conteudo1{
+ 
+  border-radius: 90px 0px;
+text-align: center;
+  margin-top: 100px;
+  
+  background-color: #000000;
+  width: 400px;
+  height: 230px;
+  
+}
+.container-conteudo1{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+margin-top: -15px;
+  width: 300px;
+  margin-left: 50px;
+  color: white;
+}
+ h3{
+  font-size: 30px;
+  color: white!important;
+  margin-bottom: 20px;
+ 
+}
+
+
+
+.entrar-em-contato{
+ 
+  padding: 10px;
+  width: 30px;
+  height: 50px;
+  border: solid 1px ;
+  color: rgb(199, 195, 195);
+  border-radius: 12px 0px ;
+}
+
+
+.entrar-em-contato:hover{
+  background-color: #c8c5c53c;
+}
+
+
+
+
+
+
+.container-servicos {
+display: flex;
+justify-self: stretch;
+justify-content: center;
+gap: 100px;
+height: 400px;
+
+
+ background-color: #000000;
+ 
+}
+
+
+
+
+
+.img2{
+ margin-top: 100px;
+  animation: float 6s ease-in-out infinite;
+}
+
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-70px);
+  }
+}
+
+
+/*Estilização Container Projects*/
+
+.titulo-projects {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  height: 20px;
+  font-size: 14px;
+  background-color: #0c1f3a69;
+}
+.titulo-projects h3 {
+margin-top: -16px;
+  text-align: center;
+  background-color: #062651;
+}
+
+
+
+
+
+
+
+/*Estilização Makers Parceiro Videos1*/
+
+
+
+.container-fileira1-videos{
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+  height: 570px;
+  background-color: #030303;
+  gap: 10px;
+  margin-bottom: 0px;
+
+}
+a{
+  color: black;
+}
+
+/*Estilização Makers Parceiro Videos1*/
+
+.video1{
+  padding: 20px;
+ height: 540px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 7px;
+ width: 420px;
+  background-color: #ffffff;
+}
+
+.titulo-video1{
+  
+  margin-top: -10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.texto{
+  letter-spacing: 0.2px;
+width: 400px;
+margin-left: 10px;
+  text-align:justify;
+  margin-top: 30px;
+  
+}
+
+
+
+/*Estilização Makers Parceiro Videos2*/
+.video2{
+  padding: 20px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 7px;
+ width: 420px;
+  background-color: #ffffff;
+}
+
+.titulo-video2{
+ 
+  margin-top: -10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.texto2{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+/*Estilização Makers Parceiro Videos3*/
+
+.video3{
+  padding: 20px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 7px;
+ width: 420px;
+  background-color: #ffffff;
+}
+
+.titulo-video3{
+ 
+  margin-top: -10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.texto3{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+/*Estilização Makers Parceiro Videos4*/
+
+.video4{
+  padding: 20px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 7px;
+ width: 420px;
+  background-color: #f8f8f8;
+}
+
+.titulo-video4{
+ 
+  margin-top: -10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.texto4{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+
+
+/*espaço div entre as fileiras*/
+.espacofileiras{
+  margin-top: -899px;
+  margin-bottom: 0px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f2eded;
+  height: 20px;
+  padding: 20px;
+}
+
+/*Estilização Makers Fileira 2*/
+
+.container-fileira2-videos{
+margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+    height: 550px;
+    background-color: #000000de;
+    gap: 10px;
+   
+  }
+  a{
+    color: black;
+  }
+
+  .espacofileiras2{
+    padding: 20px;
+    margin-top: 0px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #e5e7e8;
+    height: 20px;
+  }
+/*Estilização Container Sobre/About*/
+.container-redes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -10px;
+  justify-items: center;
+  text-align: center;
+  color: #edf0f1;
+  background-color: #000000;
+  gap: 20PX;
+  
+  padding: 20px;
+  
+}
+.container-redes a{
+color: #ffffff;
+font-size: 14px;
+}
+
+
+.container-rodape{
+
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 10px;
+ 
+}
+.container-rodape i{
+  margin-left: 12px;
+  
+  color: white;
+}
+
+.rodape a{
+  margin-top: 2px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.972);
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 20px;
+}
+
+
+
+/*Estilização Container Rodapé*/
+
+
+
+/*Responsive  */
+@media (max-width: 415px) {  
+  
+
+  /*Estilização Menu */
+.container-menu img{
+  margin-left: 10px;
+}
+
+.container-menu{
+  display: flex;
+  justify-content: center!important;
+  width: 804px;
+  height: 80px;
+  
+  background-color: #000000;
+}
+  /*span do menu Hover */
+nav span {
+  display: flex;
+  justify-content: center!important;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 295px;
+ 
+  height: 100%;
+  background: #f3f4f4;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+nav a:nth-child(1):hover ~ span {
+  left: 2px;
+  width: 72px!important;
+}
+
+nav a:nth-child(2):hover ~ span {
+  left: 75px;
+  width: 72px!important;
+}
+
+nav a:nth-child(3):hover ~ span {
+  left: 146px;
+  width: 75px!important;
+}
+
+nav a:nth-child(4):hover ~ span {
+  left: 221px;
+  width: 72px!important;
+}
+/*Botoes do Menu nav */
+  nav a {
+    display: flex;
+    margin-left: 5px;
+  
+    border-radius: 12px;
+  }
+
+
+  .container-menu  img{
+    width: 70px!important;
+    height: 70px;
+    margin-right: -10px;
+    margin-left: -25px;
+  }
+
+nav{
+  width: 290px;
+  margin-left: 10px;
+}
+  nav .home {
+    display: flex;
+    justify-content: center;
+    width: 68px;
+  }
+
+  nav .projects {
+    display: flex;
+    justify-content: center;
+    width: 68px;
+    gap: 10px !important;
+  }
+
+  nav .about {
+    display: flex;
+    justify-content: center;
+    width: 68px;
+    gap: 10px !important;
+  }
+  nav .contact {
+    display: flex;
+    justify-content: center;
+    width: 68px;
+    gap: 10px !important;
+  }
+
+.box img{
+  width: 240px!important;
+  height: 240px!important;
+}
+
+
+.container-home {
+  margin-top: 60px;
+  gap: 20px;
+  display: flex;
+  justify-content: center!important;
+  justify-items: center;
+  align-items: center;
+  color: #ffffff;
+  
+}
+
+
+.container-servicos-titulo{
+  background-color: #000000;
+  padding: 20px;
+  color: rgba(225, 209, 209, 0.437);
+  border: solid 1px;
+}
+
+.container-home h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+.container-servicos-titulo h2{
+  font-size: 15px;
+  
+}
+
+
+  /*Estilização div serviços */
+  
+
+
+  
+  
+  .container-servicos {
+    display: flex;
+    justify-items: center!important;
+    justify-content: center!important;
+  
+    height: 260px;
+  
+     
+    }
+
+    .container-box-img{
+     margin-left: 55px;
+     width: 160px;
+
+
+
+
+
+    }
+
+    .img2{
+     width: 165px;
+     height: 190px;
+    }
+
+
+.servicos-box{
+  margin-top: 20px;
+ margin-left: -120px;
+  width: 200px;
+  height: 200px;
+ 
+
+}
+
+.service{
+
+  margin-top: -100px!important;
+ 
+   width: 200px;
+   height: 200px;
+}
+
+
+.conteudo1{
+  
+ width: 190px;
+ margin-left: 120px;
+  border-radius: 12px;
+  text-align: justify!important;
+  
+  color:#ffffff;
+ 
+ 
+  font-size: 11px;
+  
+}
+
+.container-conteudo1{
+  width: 190px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: #030303;
+}
+.conteudo1 h3{
+  margin-left: 5px;
+  width: 195px;
+  font-size: 19px!important;
+}
+
+
+  .entrar-em-contato {
+    background-color: #062651;
+    text-align: center;
+    width: 30px!important;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+
+
+
+.titulo-projects{
+  background-color: #000000;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  border: solid 1px;
+ 
+}
+
+
+.titulo-projects h3{
+ 
+  color: rgb(255, 255, 255);
+ 
+  font-size: 15px;
+}
+
+
+
+.container-fileira1-videos{
+
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  height: 2220px!important;
+  background-color: #000000;
+}
+
+
+  /*Estilização div Redes e Rodapé */
+
+
+
+
+
+
+ 
+
+
+
+
+}
+
+
