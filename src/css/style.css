@@ -29,7 +29,7 @@ header{
 
   width: 58px;
   height: 58px;
-  background-size: cover;
+  
   
 }
 /*Estilização Menu */
@@ -495,15 +495,17 @@ font-size: 14px;
   
 
   /*Estilização Menu */
-.container-menu img{
-  margin-left: 10px;
-}
 
+.container-menu .logo{
+
+  width: 50px!important;
+  height: 52px!important;
+ 
+  
+}
 .container-menu{
-  display: flex;
-  justify-content: center!important;
-  width: 804px;
-  height: 80px;
+  
+  width: 200px!important;
   
   background-color: #000000;
 }
@@ -543,10 +545,11 @@ nav a:nth-child(4):hover ~ span {
 }
 /*Botoes do Menu nav */
   nav a {
-    display: flex;
-    margin-left: 5px;
-  
-    border-radius: 12px;
+  display: flex;
+  justify-content: center!important;
+  margin-left: 5px;
+   
+     
   }
 
 
@@ -556,35 +559,45 @@ nav a:nth-child(4):hover ~ span {
     margin-right: -10px;
     margin-left: -25px;
   }
-
 nav{
-  width: 290px;
-  margin-left: 10px;
+  margin-left: 24px!important;
+  display:flex!important;
+  justify-content: center!important;
+  justify-items: center;
+  width: 345px;
+  gap: 2px!important;
+
+ 
+  
 }
+  
+
   nav .home {
     display: flex;
     justify-content: center;
-    width: 68px;
+    width: 14px!important;
+    
   }
 
   nav .projects {
     display: flex;
     justify-content: center;
-    width: 68px;
-    gap: 10px !important;
+    width: 18px;
+  
   }
 
   nav .about {
     display: flex;
     justify-content: center;
-    width: 68px;
-    gap: 10px !important;
+    width: 18px;
+    
   }
   nav .contact {
+ 
     display: flex;
     justify-content: center;
-    width: 68px;
-    gap: 10px !important;
+    width: 28px;
+   
   }
 
 .box img{
@@ -619,7 +632,7 @@ nav{
 
 .container-servicos-titulo h2{
   font-size: 15px;
-  margin-top: -8px;
+  margin-top: 5px;
   
 }
 
@@ -731,7 +744,7 @@ nav{
 .titulo-projects h3{
  
   color: rgb(255, 255, 255);
-  margin-top: -8px;
+  margin-top: 5px;
   font-size: 15px;
 }
 
@@ -742,10 +755,16 @@ nav{
   display:flex;
   justify-content: center;
   justify-items: center;
-  height: 2220px!important;
+  height: 2399px!important;
   background-color: #000000;
 }
-
+.video1, .video2, .video3, .video4{
+  
+  display: flex!important;
+  justify-content: center;
+  justify-items: center;
+  width: 380px;
+}
 
 
 }
