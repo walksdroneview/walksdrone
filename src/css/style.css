@@ -451,7 +451,7 @@ nav span {
   position: absolute;
   top: 0;
   left: 0;
-  width: 269px;
+  width: 289px!important;
  
   height: 100%;
   background: #f3f4f4;
@@ -554,243 +554,93 @@ nav{
 
 
 .container-servicos-titulo{
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 20px;
-  color: rgb(255, 255, 255);
-  border: solid 1px;
+ 
+ 
 }
 
 .container-home h1{
   text-align: center;
   font-size: 30px;
+  color: #ffffff;
 }
 
 .container-servicos-titulo h2{
-  font-size: 15px;
-  margin-top: 5px;
+  font-size: 20px;
+  margin-top: 0px;
+  color: #000000;
   
 }
 
 
-  /*Estilização div serviços */
+  /*Estilização div serviços codigos acima ok */
   
 
 
-  
-  
-  .container-servicos {
-    display: flex;
-    justify-items: center!important;
+
+
+  .container-fileira1-videos{
+
+    display: flex!important;
     justify-content: center!important;
-  
-    height: 260px;
-  
-     
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    height: 2000px; ;
+      background-color: #030303;
+      gap: 5px!important;
+      margin-bottom: 0px;
+    
     }
-
-    .container-box-img{
-     margin-left: 5px;
-     width: 120px;
-
-
-
-
-
-    }
-
-    .img2{
-     width: 125px;
-     height: 190px;
+    a{
+      color: black;
     }
 
 
-.servicos-box{
-  margin-top: 20px;
- margin-left: -120px;
-  width: 200px;
-  height: 200px;
- 
-
-}
-
-.service{
-
-  margin-top: -100px!important;
- 
-   width: 200px;
-   height: 200px;
-}
-
-
-.conteudo1{
-  
- width: 190px;
- margin-left: 120px;
-  border-radius: 12px;
-  text-align: justify!important;
-  
-  color:#ffffff;
- 
- 
-  font-size: 11px;
-  
-}
-
-.container-conteudo1{
-  width: 145px;
-  height: 70px;
-  margin-top: 20px;
-  margin-left: 5px;
-  background-color: #030303;
-}
-.conteudo1 h3{
-  text-align: center;
- background-color: #000000;
-  margin-left: 5px;
-  width: 149px!important;
-  font-size: 14px!important;
-}
-
-
-  .entrar-em-contato {
-    
-   
-    text-align: center;
-    width: 30px!important;
-    font-size: 10px;
-    margin-top: 5px!important;
-    margin-left: 30px;
-  }
-  .container-botao-contato{
-    margin-top: 50px;
-    margin-left: -10px;
-
-  }
 
 
 
-.titulo-projects{
-  background-color: #000000;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-  border: solid 1px;
- 
-}
-
-
-.titulo-projects h3{
- 
-  color: rgb(236, 8, 8);
-  margin-top: 5px;
-  font-size: 15px;
-}
 
 
 
-.container-fileira1-videos{
 
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-    height: 1890px;
-    background-color: #ffffff;
-    gap: 10px;
-    margin-bottom: 0px;
-  
-  }
-  a{
-    color: black;
-  }
-  
-  /*Estilização Makers Parceiro Videos1*/
-  
-  .video1{
-    background-color: #030303;
-    padding: 20px;
-   height: 540px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 1px;
-   width: 285px!important;
- 
-  }
-  
-  .titulo-video1{
-    
-    margin-top: -5px;
-    text-align: center;
-    background-color: #ffffff;
-  }
-  
-  .texto{
-    letter-spacing: 0.2px;
-  width: 300px;
-  margin-left: 10px;
-    text-align:justify;
-    margin-top: 30px;
-    
-  }
-  
-  
-  
-  /*Estilização Makers Parceiro Videos2*/
-  .video2{
-    padding: 20px;
-    height: 540px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 7px;
-    width:285px!important;
-    background-color: #ffffff;
-  }
-  
-  .titulo-video2{
-   
-    margin-top: -10px;
-    text-align: center;
-    background-color: #ffffff;
-  }
-  
-  .texto2{
-    margin-top: 30px;
-    text-align: center;
-  }
- 
-  /*Estilização Makers Parceiro Videos3*/
-  
-  .video3{
-    padding: 20px;
-    height: 540px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 7px;
-    width: 285px!important;
-    background-color: #ffffff;
-  }
-  
-  .titulo-video3{
-   
-    margin-top: -10px;
-    text-align: center;
-    background-color: #ffffff;
-  }
-  
-  .texto3{
-    margin-top: 30px;
-    text-align: center;
-  }
-  
-  
-  
-  /*Estilização Makers Parceiro Videos4*/
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /*Estilização Makers Fileira 2*/
   
