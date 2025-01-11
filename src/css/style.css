@@ -141,44 +141,56 @@ li, a, button {
   padding: 20px;
   height: 20px;
   font-size: 15px;
-  background-color: #0c1f3a69;
+  background-color: #010101b5;
 }
-/*Estilização slider*/
+/*container subtitulo Services*/
 
 .container-servicos-titulo h2{
- margin-top: 1px;
-  letter-spacing: 3px;
+  margin-top: 1px;
+   letter-spacing: 3px;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   color: rgb(250, 250, 250);
+  
+ }
+.container-servicos {
   display: flex;
+  justify-self: stretch;
   justify-content: center;
-  justify-items: center;
-  color: white;
- 
-}
-.conteudo1{
- 
-  border-radius: 90px 0px;
-text-align: center;
-  margin-top: 100px;
+  gap: 100px;
+  height: 400px;
+  background-color:rgb(0, 0, 0);
   
-  background-color: #000000;
-  width: 400px;
-  height: 230px;
-  
-}
+  }
+
+
 .container-conteudo1{
   display: flex;
   justify-content: center;
   text-align: justify;
-margin-top: -15px;
+  margin-top: -15px;
   width: 300px;
   margin-left: 50px;
   color: white;
+ 
 }
+.conteudo1{
+  text-align: center;
+  margin-top: 100px;
+  width: 400px;
+  height: 230px;
+  color: #0a8703;
+  
+}
+
  h3{
   margin-top: -0px;
   font-size: 27px;
   color: rgb(255, 255, 255)!important;
   margin-bottom: 30px;
+ 
+ 
  
 }
 
@@ -198,22 +210,6 @@ margin-top: -15px;
   background-color: #0a8703;
 
  }
-
-
-
-.container-servicos {
-display: flex;
-justify-self: stretch;
-justify-content: center;
-gap: 100px;
-height: 400px;
-
-
- background-color: #000000;
- 
-}
-
-
 
 
 
@@ -243,7 +239,7 @@ height: 400px;
   padding: 20px;
   height: 20px;
  
-  background-color: #0c1f3a69;
+  background-color: #010101b5;
 }
 .titulo-projects h3 {
 margin-top: px;
@@ -302,8 +298,8 @@ a{
   letter-spacing: 0.2px;
 width: 300px;
 margin-left: 10px;
-  text-align:justify;
-  margin-top: 30px;
+  text-align:center;
+  margin-top: 20px;
   
 }
 
@@ -329,7 +325,7 @@ margin-left: 10px;
 }
 
 .texto2{
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 .cliqueAqui{
@@ -358,7 +354,7 @@ margin-left: 10px;
 }
 
 .texto3{
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -455,7 +451,7 @@ nav span {
  
   height: 100%;
   background: #f3f4f4;
-  border-radius: 8px;
+  border-radius:  8px;
   transition: 0.5s;
 }
 nav a:nth-child(1):hover ~ span {
@@ -475,7 +471,7 @@ nav a:nth-child(3):hover ~ span {
 
 nav a:nth-child(4):hover ~ span {
   left: 217px;
-  width: 73px!important;
+  width: 70px!important;
 }
 /*Botoes do Menu nav */
   nav a {
@@ -580,16 +576,162 @@ nav{
 
 
 
-  .container-fileira1-videos{
+  .container-servicos-titulo h2{
+    margin-top: 1px;
+     letter-spacing: 3px;
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     color: rgb(0, 0, 0);
+    
+   }
+ /*Estilização div serviços codigos acima ok */
 
+
+
+
+
+  
+    .container-servicos {
+      display: flex;
+      justify-items: center!important;
+      justify-content: center!important;
+    
+      height: 310px;
+    
+       
+      }
+  
+      .container-box-img{
+       margin-left: 55px;
+       width: 160px;
+  
+  
+  
+  
+  
+      }
+
+   
+  
+      .img2{
+       width: 165px;
+       height: 190px;
+      }
+  
+  
+  .servicos-box{
+    margin-top: 20px;
+   margin-left: -120px;
+    width: 200px;
+    height: 200px;
+   
+  
+  }
+  
+ 
+  
+  .conteudo1{
+    margin-top: 10px;
+    padding: 10px;
+    width: 205px;
+    margin-left: 120px;
+    border-radius: 12px;
+    text-align: justify!important;
+  
+    color:#ffffff;
+    font-size: 11px;
+    height: 200px;
+    
+  }
+  
+  .container-conteudo1{
+    width: 180px;
+    height: 130px;
+    margin-top: -20px;
+  
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+    
+  }
+
+  .solicite-orcamento-titulo{
+   
+   height: 20px!important;
+ 
+    width: 190px!important;
+    text-align: center;
+    font-size: 16px!important;
+  }
+
+  
+    .entrar-em-contato {
+      
+      text-align: center;
+      width: 30px!important;
+      font-size: 10px;
+      
+      margin-left: 30px;
+    }
+
+    .container-botao-contato{
+      margin-top: -10px;
+      margin-left: 20px;
+
+    }
+  
+
+
+
+    .titulo-projects {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      padding: 20px;
+      height: 20px;
+     
+      background-color: #ffffff;
+    }
+    .titulo-projects h3 {
+    
+      text-align: center;
+     
+      font-size: 22px!important;
+      color: #000000!important;
+      letter-spacing: 3px!important;
+      
+    }
+
+
+
+
+
+
+
+/*Codigos acima Ok*/
+
+
+
+
+
+
+
+
+
+
+
+
+  .container-fileira1-videos{
+   
     display: flex!important;
     justify-content: center!important;
     flex-direction: row!important;
     flex-wrap: wrap!important;
-    height: 2000px; ;
+    height: 1695px; ;
       background-color: #030303;
-      gap: 5px!important;
-      margin-bottom: 0px;
+      
+     
+      
     
     }
     a{
@@ -597,63 +739,24 @@ nav{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .video1, .video2, .video3{
+      height: 460px;
+      margin-top: 30px!important;
+    }
   
   /*Estilização Makers Fileira 2*/
   
   /*Estilização Container Sobre/About*/
   .container-redes {
+    
     display: flex;
     justify-content: center;
-    margin-bottom: -10px;
+    margin-bottom: 0px!important;
     justify-items: center;
     text-align: center;
     color: #edf0f1;
     background-color: #000000;
-    gap: 20PX;
+    gap: 10px!important;
     
     padding: 20px;
     
