@@ -230,6 +230,48 @@ li, a, button {
 }
 
 
+
+
+
+/*Estilização Container IMAGENS E VIDEOS*/
+
+
+
+.container-imagensevideos {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+
+  background-color:rgb(0, 0, 0);
+  
+  height: 530px;
+  
+  }
+
+  .container-imagens-foto{
+   margin-top: 15px;
+   
+    background-image: url(../img/SERVIO\ BANNER.png);
+   display: flex;
+   justify-content: center;
+    background-repeat: no-repeat;
+  background-size:coVER;
+   width: 1000px;
+   height: 500px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Estilização Container Projects*/
 
 .titulo-projects {
@@ -710,7 +752,21 @@ nav{
 
 /*Codigos acima Ok*/
 
+.container-imagensevideos{
+  height: 240px!important;
+}
 
+.container-imagens-foto{
+  margin-top: 15px;
+  
+   background-image: url(../img/SERVIO\ BANNER.png);
+  display: flex;
+  justify-content: center;
+   background-repeat: no-repeat;
+ background-size:contain;
+  width: 1000px;
+  height: 500px;
+ }
 
 
 
