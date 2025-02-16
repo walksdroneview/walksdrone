@@ -16,6 +16,42 @@ body {
   background-size: cover;
   
 }
+
+
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #30e60b; /* Cor do WhatsApp */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+  font-size: 30px; /* Tamanho do ícone */
+  color: #fff; /* Cor do ícone */
+}
+
+.whatsapp-button img {
+  width: 41px;
+  
+}
+
+
+.whatsapp-button:hover {
+  width: 61px;
+  height: 61px;
+  background-color: #09aa39e0;
+}
+
+
+
+
+
 header{
   background-color: #000000;
   display: flex;
