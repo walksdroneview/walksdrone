@@ -2,12 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
 
 .container-videoBg {
-    margin-top: -184px;
+    margin-top: -210px;
     position: relative;
     width: 100%;
     height: 70vh; /* Ajuste a altura conforme necessário */
     overflow:hidden;
-   
+  
+    z-index: -1;
   }
   
   .container-videoBg video {
@@ -27,30 +28,25 @@
 
 
 
-
-/*Responsive  */
-@media (max-width: 415px) {  
-  
-
-
-
+/* Responsive */
+@media (max-width: 415px) {
   .container-videoBg {
-    margin-top: -184px;
+    margin-top: -375px; /* Mantido, mas verifique se é o valor desejado */
     position: relative;
     width: 100%;
-    height: 40vh; /* Ajuste a altura conforme necessário */
-    overflow:hidden;
-   
+    height: 40vh; /* Mantido, ajuste conforme necessário */
+    overflow: hidden;
+    z-index: -1 !important; /* Mantido, mas evite !important se possível */
   }
-  
+
   .container-videoBg video {
-    opacity: 100%;
+    opacity: 1; /* Simplificado para 1 */
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit:cover; /* Ajusta o vídeo para cobrir toda a área */
-    z-index: -1; /* Coloca o vídeo atrás do texto */
+    object-fit: cover; /* Mantido */
+    z-index: -1 !important; /* Mantido, mas evite !important se possível */
   }
 }

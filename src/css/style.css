@@ -12,7 +12,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
- background-color: #9c9c9c;
+  background-color: #9c9c9c;
   background-size: cover;
   
 }
@@ -29,7 +29,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #30e60b; /* Cor do WhatsApp */
+  background-color: #0b6ae6; /* Cor do WhatsApp */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1000; /* Garante que o botão fique acima de outros elementos */
   font-size: 30px; /* Tamanho do ícone */
@@ -45,12 +45,12 @@ body {
 .whatsapp-button:hover {
   width: 61px;
   height: 61px;
-  background-color: #09aa39e0;
+  background-color: #0caa09e0;
 }
 
 
-
-
+/*Estilização Container ROlagem  Paatrocinadores*/
+/* Estilização Container Rolagem Paatrocinadores */
 
 header{
   background-color: #000000;
@@ -68,7 +68,7 @@ header{
 /*Estilização Menu */
 
 .container-menu {
-background-color: #000000;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -144,7 +144,8 @@ li, a, button {
 
 /*Estilização Titulo */
 .container-home {
-  margin-top: 60px;
+  
+  margin-top: 0px;
   gap: 20px;
   display: flex;
   justify-content: center;
@@ -157,8 +158,8 @@ li, a, button {
 .container-home h1{
   font-size: 60px;
   
-
 }
+
 
 /*Estilização SubTitulo */
 .conteudo-subtitulo {
@@ -171,7 +172,7 @@ li, a, button {
   padding: 10px;
   font-size: 15px;
   color: #ffffffd2;
-  background-color:  #615e5e26;
+
 }
 .container-servicos-titulo{
   padding: 20px;
@@ -190,6 +191,47 @@ li, a, button {
    color: rgb(250, 250, 250);
   
  }
+
+
+/* Estilização Container Rolagem Patrocinadores */
+.barra-patrocinadores {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #0338877e;
+  overflow: hidden; /* Adicionado para esconder o overflow da animação */
+  white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+}
+
+.container-patrocinadores {
+  display: inline-flex; /* Alterado para inline-flex para permitir o movimento horizontal */
+  gap: 40px;
+  justify-content: flex-start; /* Alinha os itens ao início */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  animation: movePatrocinadores 20s linear infinite; /* Animação de movimento horizontal */
+}
+
+.container-patrocinadores img {
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.container-patrocinadores img:hover {
+  transform: scale(1.2);
+  animation-play-state: paused; /* Pausa a animação ao passar o mouse */
+}
+
+@keyframes movePatrocinadores {
+  0% {
+    transform: translateX(140%);
+  }
+  100% {
+    transform: translateX(-130%); /* Move os itens para a esquerda */
+  }
+}
+
+
+
 .container-servicos {
   display: flex;
   justify-self: stretch;
@@ -247,8 +289,6 @@ li, a, button {
 
  }
 
-
-
 .img2{
  margin-top: 100px;
   animation: float 6s ease-in-out infinite;
@@ -278,23 +318,44 @@ li, a, button {
   justify-items: center;
   justify-content: center;
 
-  background-color:rgb(0, 0, 0);
+  background-color:rgba(0, 0, 0, 0.932);
   
   height: 530px;
   
   }
+  .slider {
+    width: 900px;
+    overflow: hidden;
+    position: relative;
+}
 
-  .container-imagens-foto{
-   margin-top: 15px;
-   
-    background-image: url(../img/SERVIO\ BANNER.png);
-   display: flex;
-   justify-content: center;
-    background-repeat: no-repeat;
-  background-size:coVER;
-   width: 1000px;
-   height: 500px;
-  }
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide:first-child {
+    opacity: 1;
+}
+
+.slider:hover .slide {
+    transition: none; /* Remove a transição ao passar o mouse */
+}
+
+.slider:hover .slide.active {
+    opacity: 1; /* Garante que o slide ativo permaneça visível */
+}
 
 
 
@@ -623,9 +684,14 @@ nav{
   justify-items: center;
   align-items: center;
   color: #ffffff;
+ 
   
 }
-
+.conteudo-subtitulo{
+  font-size: 10px;
+  margin-top: -10px;
+  margin-bottom: 200px;
+}
 
 .container-servicos-titulo{
   background-color: #ffffff;
@@ -635,8 +701,11 @@ nav{
 }
 
 .container-home h1{
+ 
+margin-bottom: -10px;
+  margin-top: -50px!important;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffffff;
 }
 
@@ -648,9 +717,42 @@ nav{
 }
 
 
-  /*Estilização div serviços codigos acima ok */
-  
+/* Estilização Container Rolagem Patrocinadores */
+.barra-patrocinadores {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #0338877e;
+  overflow: hidden; /* Adicionado para esconder o overflow da animação */
+  white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+}
 
+.container-patrocinadores {
+  display: inline-flex; /* Alterado para inline-flex para permitir o movimento horizontal */
+  gap: 40px;
+  justify-content: flex-start; /* Alinha os itens ao início */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  animation: movePatrocinadores 20s linear infinite; /* Animação de movimento horizontal */
+}
+
+.container-patrocinadores img {
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.container-patrocinadores img:hover {
+  transform: scale(1.2);
+  animation-play-state: paused; /* Pausa a animação ao passar o mouse */
+}
+
+@keyframes movePatrocinadores {
+  0% {
+    transform: translateX(90%);
+  }
+  100% {
+    transform: translateX(-90%); /* Move os itens para a esquerda */
+  }
+}
 
 
 
@@ -792,17 +894,49 @@ nav{
   height: 240px!important;
 }
 
-.container-imagens-foto{
-  margin-top: 15px;
-  
-   background-image: url(../img/SERVIO\ BANNER.png);
+.container-imagensevideos {
   display: flex;
+  justify-items: center;
   justify-content: center;
-   background-repeat: no-repeat;
- background-size:contain;
-  width: 1000px;
-  height: 500px;
- }
+
+  background-color:rgba(0, 0, 0, 0.932);
+  
+  height: 530px;
+  
+  }
+  .slider {
+    width: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide:first-child {
+    opacity: 1;
+}
+
+.slider:hover .slide {
+    transition: none; /* Remove a transição ao passar o mouse */
+}
+
+.slider:hover .slide.active {
+    opacity: 1; /* Garante que o slide ativo permaneça visível */
+}
 
 
 
