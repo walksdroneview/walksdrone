@@ -475,7 +475,7 @@ margin-left: 10px;
 
 /*Estilização Makers Parceiro Videos3*/
 
-.video3{
+.video3, .video2, .video1{
   padding: 20px;
   height: 540px;
   display: flex;
@@ -486,7 +486,7 @@ margin-left: 10px;
   background-color: #ffffff;
 }
 
-.titulo-video3{
+.titulo-video3, .titulo-video2, .titulo-video1{
  
   margin-top: -10px;
   text-align: center;
