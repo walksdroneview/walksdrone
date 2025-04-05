@@ -1,13 +1,18 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Wallpoet&display=swap');
+
 * {
   height:none;
   margin: 0;
   padding: 0;
   box-sizing: content-box;
   font-family: "Poppins", sans-serif;
+  font-family: "Caveat", cursive;
 }
 
 body {
+  font-family: "Caveat", cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -91,9 +96,10 @@ nav {
 }
 
 nav a {
+  font-family: "Caveat", cursive;
   position: relative;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 500;
   color: #000000;
   text-decoration: none;
@@ -167,10 +173,10 @@ li, a, button {
   text-align: center;
   justify-content: center;
   justify-items: center;
-  margin-top: 0px;
+  margin-top: -12px;
   margin-bottom: 0px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 21px;
   color: #ffffffd2;
 
 }
@@ -183,13 +189,13 @@ li, a, button {
 /*container subtitulo Services*/
 
 .container-servicos-titulo h2{
-  margin-top: 1px;
+  margin-top: -15px;
    letter-spacing: 3px;
    display: flex;
    justify-content: center;
    justify-items: center;
    color: rgb(250, 250, 250);
-  
+  font-size: 35px;
  }
 
 
@@ -201,6 +207,7 @@ li, a, button {
   background-color: #0338877e;
   overflow: hidden; /* Adicionado para esconder o overflow da animação */
   white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+
 }
 
 .container-patrocinadores {
@@ -260,11 +267,12 @@ li, a, button {
   height: 230px;
   color: #0a8703;
   
+  
 }
 
  h3{
   margin-top: -0px;
-  font-size: 27px;
+  font-size: 35px;
   color: rgb(255, 255, 255)!important;
   margin-bottom: 30px;
  
@@ -377,14 +385,19 @@ li, a, button {
   justify-items: center;
   padding: 20px;
   height: 20px;
- 
+  font-family: "Caveat", cursive;
   background-color: #010101b5;
 }
+
+
+
 .titulo-projects h3 {
-margin-top: px;
+margin-top: -10px;
+font-family: "Caveat", cursive;
+
   text-align: center;
   background-color: #eaedf1;
-  font-size: 23px;
+  font-size: 33px;
 }
 
 
@@ -418,12 +431,12 @@ a{
 
 .video1{
   padding: 20px;
- height: 540px;
+  height: 540px;
   display: flex;
   justify-content: center;
   justify-items: center;
   margin-top: 7px;
- width: 324px;
+  width: 324px;
   background-color: #ffffff;
 }
 
@@ -618,6 +631,7 @@ nav a:nth-child(4):hover ~ span {
   display: flex;
   justify-content: center!important;
   margin-left: 0px!important;
+  font-size: 20px;
    
      
   }
@@ -636,7 +650,7 @@ nav{
   justify-content: center!important;
   justify-items: center!important;
   width: 305px!important;
-  gap: 2px!important;
+
 
  
   
