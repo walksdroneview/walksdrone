@@ -329,6 +329,7 @@ li, a, button {
   
   }
   .slider {
+    
     width: 900px;
     overflow: hidden;
     position: relative;
@@ -425,6 +426,7 @@ a{
 
 
 /*Estilização Makers Parceiro Videos1*/
+
 
 .video1{
   padding: 20px;
